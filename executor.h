@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include<unistd.h> 
+#include <unistd.h> 
 
 
 typedef struct {
@@ -11,7 +11,7 @@ typedef struct {
     char* path;
 } item;
 
-void changeDirCheck(char* path);
+int changeDirCheck(char* path);
 
 
 #endif // EXECUTOR_H

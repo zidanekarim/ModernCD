@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv) {
     
-    printf("This is project %s.\n", PROJECT_NAME);
-    changeDir("..");
+    //printf("This is project %s.\n", PROJECT_NAME);
+    printf("%d\n", changeDirCheck(".."));
     return 0;
 }
