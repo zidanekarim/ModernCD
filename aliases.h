@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <unistd.h> 
 #include "executor.h"
+#include <string.h>
 
 int addAlias(char* shortcut, char* path);
 int removeAlias(char* shortcut);

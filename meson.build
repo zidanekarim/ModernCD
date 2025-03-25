@@ -4,7 +4,7 @@ project('ModernCD', 'c',
 
 # executor dependency (executor.c, which needs executor.h)
 executor_dep = declare_dependency(
-    sources: ['executor.c'],
+    sources: ['executor.c', 'aliases.c'],
     include_directories: include_directories('.')
 )
 

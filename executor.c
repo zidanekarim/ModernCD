@@ -1,5 +1,5 @@
 #include "executor.h"
-
+#include "aliases.h"
 
 
 int changeDirCheck(char* path) {
